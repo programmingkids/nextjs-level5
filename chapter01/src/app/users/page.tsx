@@ -1,8 +1,5 @@
-export default async function Page() {
+export default function Page() {
   const url = 'https://cog-study.herokuapp.com/nextjs_level5/chapter01/users/';
-  const res = await fetch(url);
-  const users = await res.json();
-  console.log(users);
 
   return (
     <div className="main">
