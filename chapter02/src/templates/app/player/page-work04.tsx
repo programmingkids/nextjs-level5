@@ -8,6 +8,7 @@ export type Player = {
   username: string;
   email: string;
   address: string;
+  job: string;
   icon: string;
   color: string;
   created_at: string;
